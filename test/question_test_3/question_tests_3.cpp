@@ -6,7 +6,16 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+// TEST_CASE("test")
+// {
+// 	REQUIRE(test_config() == true);
+// }
+TEST_CASE("Run to show how a value param works")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE()
+}
+
+TEST_CASE("Verify how a reference param works")
+{
+	REQUIRE()
 }

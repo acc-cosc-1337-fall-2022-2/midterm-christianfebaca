@@ -6,7 +6,12 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+// TEST_CASE("test")
+// {
+// 	REQUIRE(test_config() == true);
+// }
+TEST_CASE("Testing transcribe_dna_into_rna function")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(transcribe_dna_into_rna("GATGGAACTTGACTACGTAAATT").compare("G"));
+	
 }
